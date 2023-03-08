@@ -25,6 +25,10 @@ export function pintarProductos(productos){
         precio.classList.add("text-center","text-success","fw-bold")
         precio.textContent="USD "+producto.precio
 
+        let desc=document.createElement("p")
+        precio.classList.add("text-center","fw-bold","d-none")
+        precio.textContent=producto.descripcion
+
         //Detectando evento
         tarjeta.addEventListener("mouseover",function(){
             imagen.src=producto.fotos[1]
@@ -39,6 +43,7 @@ export function pintarProductos(productos){
         tarjeta.appendChild(imagen)
         tarjeta.appendChild(nombre)
         tarjeta.appendChild(precio)
+        tarjeta.appendChild(desc)
         columna.appendChild(tarjeta)
         fila.appendChild(columna)
     

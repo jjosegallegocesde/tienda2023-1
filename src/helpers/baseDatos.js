@@ -3,7 +3,7 @@
 export let productos=Array(
     {
         nombre:"Producto 1",
-        descripcion:"Aqui ponga descripcion",
+        descripcion:"Aqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcionAqui ponga descripcion",
         fotos:["https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/freezer1.webp?alt=media&token=7b87d57d-8a2f-4977-ae69-a7f3f1169e14","https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/freezer2.webp?alt=media&token=7ad6ba16-775f-42e4-93a1-329bb699e383"],
         precio:70000,
         popularidad:4.2
