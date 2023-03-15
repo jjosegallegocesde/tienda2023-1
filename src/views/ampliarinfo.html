@@ -46,10 +46,16 @@
                         <a class="nav-link disabled">Disabled</a>
                       </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                   <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a href="" class="nav-link active">
+                        <i class="bi bi-cart4 fs-2"></i>
+                        <span id="pildora" class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
+                          0
+                        </span>
+                      </a>
+                    </li>
+                   </ul>
                   </div>
                 </div>
               </nav>
@@ -81,7 +87,7 @@
                     <hr>
                     <h5 class="mt-2">$SUBTOTAL</h5>
 
-                    <button type="button" class="btn btn-warning my-5"><i class="bi bi-cart-fill"></i> añadir al carro</button>
+                    <button type="button" class="btn btn-warning my-5" id="btnagregarcarrito"><i class="bi bi-cart-fill"></i> añadir al carro</button>
                     <button>Ver en dolares</button>
                     
                 </div>
